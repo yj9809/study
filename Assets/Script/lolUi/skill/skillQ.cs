@@ -15,7 +15,7 @@ public class skillQ : MonoBehaviour
     float coolTimeMax = 0f;
 
     public bool skillCool = true;
-    float mp = 800;
+    float mp = 55;
     // Start is called before the first frame update
     void Start()
     {

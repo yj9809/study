@@ -66,6 +66,7 @@ public class DropItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
         }
     }
 
+    //본인이 스크립트를 들고 있는 시스템
     public void OnDrag(PointerEventData eventData)
     {
         isDrag = true;
@@ -74,7 +75,6 @@ public class DropItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     }
     
 
-    //본인이 스크립트를 들고 있는 시스템
 
     public void OnBeginDrag(PointerEventData eventData)
     {

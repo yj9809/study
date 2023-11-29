@@ -20,5 +20,10 @@ public class MpNull : MonoBehaviour
     public void OnText()
     {
         gameObject.SetActive(true);
+        cooltime -= Time.deltaTime;
+        if (cooltime < 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

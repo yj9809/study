@@ -28,7 +28,7 @@ public class state : MonoBehaviour
         txt[1].text = $"0";
         txt[2].text = Mathf.Floor(def).ToString();
         txt[3].text = Mathf.Floor(sdef).ToString();
-        txt[4].text = string.Format("{0:N1}", (0.644 + (0.644 *(1.8 * (level.lv - 1)))).ToString());
+        txt[4].text = string.Format("{0:N1}", (0.644 +(0.018 * (level.lv - 1))).ToString());
         txt[5].text = $"0";
 
     }
