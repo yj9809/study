@@ -42,6 +42,14 @@ public class Price : MonoBehaviour
         txt.text = money.ToString();
         return price;
     }
+
+    public int MoneyUp(int price)
+    {
+        money += (int)(price * 0.6);
+        txt.text = money.ToString();
+        return price;
+    }
+
     IEnumerator MoneyUp()
     {
         while (true)
