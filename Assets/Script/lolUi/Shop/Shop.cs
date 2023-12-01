@@ -11,7 +11,8 @@ public class Shop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        shop.gameObject.SetActive(false);
+        sale.gameObject.SetActive(false);
     }
 
     // Update is called once per frame

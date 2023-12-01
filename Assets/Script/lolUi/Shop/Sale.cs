@@ -38,6 +38,7 @@ public class Sale : MonoBehaviour
             {
                 if (it[i].GetComponent<UnityEngine.UI.Image>().sprite.name == dregItme.GetComponent<SpriteRenderer>().sprite.name)
                 {
+                    target = null;
                     prices.MoneyUp(it[i].price);
                 }
             }
