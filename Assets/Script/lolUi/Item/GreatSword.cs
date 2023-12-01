@@ -4,23 +4,27 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class Item : MonoBehaviour
+public class GreatSword : MonoBehaviour
 {
     [SerializeField] Transform items;
     [SerializeField] Transform dregItme;
     [SerializeField] TMP_Text txt;
     [SerializeField] private Price prices;
+    [SerializeField] private Item[] it;
+    [SerializeField] private GameObject[] inven;
 
     bool isDrag = false;
 
-    public int price = 0;
+    int price = 1200;
     int check = 1;
+    int a = 0;
+    int b = 0;
     Vector2 startPos;
     Transform target;
 
     public void OnPointDown()
     {
-        if (check == prices.Purchase(price))
+        if (check == prices.Purchase(price - a - b))
         {
             isDrag = false;
             startPos = transform.position;
@@ -42,7 +46,7 @@ public class Item : MonoBehaviour
             {
                 target.GetChild(0).GetComponent<SpriteRenderer>().sprite = dregItme.GetComponent<SpriteRenderer>().sprite;
                 target.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
-                prices.MoneyDown(price);                
+                prices.MoneyDown(price);
 
             }
             else
@@ -61,8 +65,16 @@ public class Item : MonoBehaviour
     }
 
     // Update is called once per frame
+    void Start()
+    {
+        for (int i = 0; i < it.Length; i++)
+        {
+            price += it[i].price;
+        }
+    }
     void Update()
     {
+        
         if (isDrag)
         {
             RaycastHit2D[] hit =
@@ -79,8 +91,27 @@ public class Item : MonoBehaviour
             }
         }
 
-        txt.text = price.ToString();
+        for (int i = 0; i < inven.Length; i++)
+        {           
+            if (inven[i].GetComponent<SpriteRenderer>().enabled == true && inven[i].GetComponent<SpriteRenderer>().sprite.name == it[0].GetComponent<UnityEngine.UI.Image>().sprite.name)
+            {
+                a = it[0].price;
+            }
+            else if (inven[i].GetComponent<SpriteRenderer>().enabled == true && inven[i].GetComponent<SpriteRenderer>().sprite.name == it[1].GetComponent<UnityEngine.UI.Image>().sprite.name)
+            {
+                b = it[1].price;
+            }
+            else
+            {
+                continue;
+            }
+        }
+
+
+
+        txt.text = (price - a - b).ToString();
     }
+
 
 
 }

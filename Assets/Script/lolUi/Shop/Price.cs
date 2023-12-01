@@ -45,9 +45,11 @@ public class Price : MonoBehaviour
 
     public int MoneyUp(int price)
     {
-        money += (int)(price * 0.6);
+        int c = (int)(price * 0.6);
+        money += c;
         txt.text = money.ToString();
-        return price;
+        Debug.Log($"판매 금액 : {c}골드");
+        return c;
     }
 
     IEnumerator MoneyUp()

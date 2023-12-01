@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 59521681}
   - component: {fileID: 59521680}
   m_Layer: 5
-  m_Name: Gate (9)
+  m_Name: 3000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +650,7 @@ RectTransform:
   m_Children:
   - {fileID: 126797444}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   - component: {fileID: 126986924}
   - component: {fileID: 126986923}
   m_Layer: 5
-  m_Name: Gate (12)
+  m_Name: 300
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1212,7 +1212,7 @@ RectTransform:
   m_Children:
   - {fileID: 1743302321}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 12
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2378,7 +2378,7 @@ GameObject:
   - component: {fileID: 320215299}
   - component: {fileID: 320215298}
   m_Layer: 5
-  m_Name: Gate (6)
+  m_Name: 750
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2398,7 +2398,7 @@ RectTransform:
   m_Children:
   - {fileID: 291900653}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2858,7 +2858,7 @@ GameObject:
   - component: {fileID: 379058800}
   - component: {fileID: 379058799}
   m_Layer: 5
-  m_Name: Gate (2)
+  m_Name: 750
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2878,7 +2878,7 @@ RectTransform:
   m_Children:
   - {fileID: 1387180334}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3368,7 +3368,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &502598202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,7 +3459,7 @@ GameObject:
   - component: {fileID: 505928583}
   - component: {fileID: 505928582}
   m_Layer: 5
-  m_Name: Gate (10)
+  m_Name: 1700
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3479,7 +3479,7 @@ RectTransform:
   m_Children:
   - {fileID: 350879571}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3899,7 +3899,7 @@ GameObject:
   - component: {fileID: 553732743}
   - component: {fileID: 553732742}
   m_Layer: 5
-  m_Name: Gate (5)
+  m_Name: 1650
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3919,7 +3919,7 @@ RectTransform:
   m_Children:
   - {fileID: 995956344}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4298,7 +4298,7 @@ GameObject:
   - component: {fileID: 593290300}
   - component: {fileID: 593290299}
   m_Layer: 5
-  m_Name: Gate (4)
+  m_Name: 1200
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4318,7 +4318,7 @@ RectTransform:
   m_Children:
   - {fileID: 2171685}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4596,7 +4596,7 @@ GameObject:
   - component: {fileID: 631985945}
   - component: {fileID: 631985948}
   m_Layer: 5
-  m_Name: Gate
+  m_Name: 1300
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4616,7 +4616,7 @@ RectTransform:
   m_Children:
   - {fileID: 526419603}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4888,7 +4888,7 @@ GameObject:
   - component: {fileID: 644248666}
   - component: {fileID: 644248665}
   m_Layer: 5
-  m_Name: Gate (13)
+  m_Name: 400
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4908,7 +4908,7 @@ RectTransform:
   m_Children:
   - {fileID: 147164921}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6165,7 +6165,7 @@ GameObject:
   - component: {fileID: 920017433}
   - component: {fileID: 920017432}
   m_Layer: 5
-  m_Name: Gate (11)
+  m_Name: 1250
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6185,7 +6185,7 @@ RectTransform:
   m_Children:
   - {fileID: 587679470}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6594,7 +6594,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &987347063
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,7 +6792,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &995956343
 GameObject:
   m_ObjectHideFlags: 0
@@ -7201,7 +7201,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &1248513772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,7 +7735,7 @@ GameObject:
   - component: {fileID: 1279010208}
   - component: {fileID: 1279010207}
   m_Layer: 5
-  m_Name: Gate (1)
+  m_Name: 1500
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7755,7 +7755,7 @@ RectTransform:
   m_Children:
   - {fileID: 1796171229}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 1
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8233,7 +8233,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &1363113321
 GameObject:
   m_ObjectHideFlags: 0
@@ -8324,7 +8324,7 @@ GameObject:
   - component: {fileID: 1364601320}
   - component: {fileID: 1364601319}
   m_Layer: 5
-  m_Name: Gate (14)
+  m_Name: 3200
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8369,7 +8369,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1364601322}
-          m_TargetAssemblyTypeName: Item, Assembly-CSharp
+          m_TargetAssemblyTypeName: GreatSword, Assembly-CSharp
           m_MethodName: OnPointUp
           m_Mode: 1
           m_Arguments:
@@ -8385,7 +8385,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1364601322}
-          m_TargetAssemblyTypeName: Item, Assembly-CSharp
+          m_TargetAssemblyTypeName: GreatSword, Assembly-CSharp
           m_MethodName: OnPointDown
           m_Mode: 1
           m_Arguments:
@@ -8401,7 +8401,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1364601322}
-          m_TargetAssemblyTypeName: Item, Assembly-CSharp
+          m_TargetAssemblyTypeName: GreatSword, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 1
           m_Arguments:
@@ -8459,14 +8459,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1364601317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4a3ad26404353b41ba8745c4eb9ff4f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f3e5b44c1cbce8429be5e1c7b27bf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   items: {fileID: 1364601318}
   dregItme: {fileID: 1430451493}
   txt: {fileID: 1396851132}
   prices: {fileID: 335052981}
-  price: 3200
+  it:
+  - {fileID: 920017435}
+  - {fileID: 320215301}
+  inven:
+  - {fileID: 920971086}
+  - {fileID: 701037932}
+  - {fileID: 1622335522}
+  - {fileID: 1270863264}
+  - {fileID: 1304624752}
+  - {fileID: 133290012}
 --- !u!1 &1387180333
 GameObject:
   m_ObjectHideFlags: 0
@@ -9578,7 +9587,7 @@ GameObject:
   - component: {fileID: 1537184124}
   - component: {fileID: 1537184123}
   m_Layer: 5
-  m_Name: Gate (3)
+  m_Name: 250
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9598,7 +9607,7 @@ RectTransform:
   m_Children:
   - {fileID: 1893838988}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10272,7 +10281,7 @@ MonoBehaviour:
   - {fileID: 920017435}
   - {fileID: 126986926}
   - {fileID: 644248668}
-  - {fileID: 1364601322}
+  - {fileID: 0}
 --- !u!1 &1604839078
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,7 +11043,7 @@ GameObject:
   - component: {fileID: 1810769176}
   - component: {fileID: 1810769175}
   m_Layer: 5
-  m_Name: Gate (7)
+  m_Name: 3000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11054,7 +11063,7 @@ RectTransform:
   m_Children:
   - {fileID: 156514044}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 7
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11593,20 +11602,20 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 631985944}
-  - {fileID: 1279010206}
-  - {fileID: 379058798}
-  - {fileID: 1537184122}
-  - {fileID: 593290298}
-  - {fileID: 553732741}
-  - {fileID: 320215297}
-  - {fileID: 1810769174}
   - {fileID: 2015317414}
-  - {fileID: 59521679}
-  - {fileID: 505928581}
-  - {fileID: 920017431}
+  - {fileID: 1537184122}
   - {fileID: 126986922}
   - {fileID: 644248664}
+  - {fileID: 379058798}
+  - {fileID: 320215297}
+  - {fileID: 593290298}
+  - {fileID: 920017431}
+  - {fileID: 631985944}
+  - {fileID: 1279010206}
+  - {fileID: 553732741}
+  - {fileID: 505928581}
+  - {fileID: 1810769174}
+  - {fileID: 59521679}
   - {fileID: 1364601318}
   m_Father: {fileID: 40221743}
   m_RootOrder: 0
@@ -12097,7 +12106,7 @@ GameObject:
   - component: {fileID: 2015317416}
   - component: {fileID: 2015317415}
   m_Layer: 5
-  m_Name: Gate (8)
+  m_Name: 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12117,7 +12126,7 @@ RectTransform:
   m_Children:
   - {fileID: 1489262275}
   m_Father: {fileID: 1889268601}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
